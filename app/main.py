@@ -22,3 +22,6 @@ app.include_router(policy_llm_router)
 
 from app.routes.whatif import router as whatif_router
 app.include_router(whatif_router)
+
+from app.routes.whatif import router as whatif_router
+app.include_router(whatif_router)
